@@ -1,0 +1,395 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+body
+{
+    /*height: 500px;
+    /*background-color: cyan;*/
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+
+}
+
+
+/*Nav-Section*/
+
+nav{
+	width: 100%;
+	background: #41228e;
+	padding: 20px;
+	position: sticky;
+	top: 0;
+}
+
+#nav-main{
+	width: 85%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	align-items: center;
+}
+
+
+#logo{
+	padding: 8px;
+}
+
+#navigation{
+
+}
+
+#navigation ul{
+	display: flex;
+
+}
+
+
+#navigation ul li{
+	list-style: none;
+	padding: 10px;
+}
+
+#navigation ul li:first-child{
+	padding-left: 0;
+
+}
+
+
+#navigation ul li a{
+	color: #fff;
+	text-decoration: none;
+}
+
+
+@media (max-width: 530px){
+	#nav-main{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		text-align: center;
+		align-items: center;
+	}
+}
+
+
+
+
+
+header{
+	width: 100%;
+	background-color: #43228e;
+
+}
+
+#header-main{
+	width: 90%;
+	/*margin: 0 auto;*/
+	/*text-align: center;*/
+	/*padding: 20px;*/
+	/*padding-top: 50px;*/
+	/*padding-bottom: 100px;*/
+}
+
+
+#header-text{
+	padding: 20px;
+
+}
+
+
+
+#header-text h1{
+	padding-top: 50px;
+	padding-bottom: 15px;
+	color: #fff;
+	font-size: 64px;
+
+}
+
+
+/*#header-text p{padding-bottom: 30px; color: #fff; }*/
+
+
+/*#header-text button{*/
+	/*height: 45px;	width: 170px;	color: #000;	font-weight: bold;	font-size: 14px;*/
+	/*background: none; background: #fff; border: none; outline: none; }*/
+
+
+
+
+
+
+/*Text-Section*/
+
+
+#about{
+	background: ghostwhite;
+	/*width: 100%;*/
+	padding-top: 80px;
+	padding-bottom: 100px;
+	}
+#about-main{
+	width: 80%;
+	/*text-align: center;*/
+	/*padding: 20px;*/
+	margin: 0 auto;
+	/*line-height: 40px;*/
+	display: flex;
+	flex-wrap: nowrap;
+
+}
+
+
+#about-text p{
+	padding: 20px;
+	/*font-size: 20px;*/
+
+}
+
+
+
+#about-img{
+	/*padding-bottom: 30px;*/
+	/*font-size: 20px;*/
+	height: 300px;
+	width: 100%
+}
+
+
+
+
+#about-img img{
+	/*padding-bottom: 30px;*/
+	/*font-size: 20px;*/
+	height: 300px;
+	width: 100%
+}
+
+
+
+#about-img h1{
+	padding-top: 10px;
+	text-align: center;
+}
+
+@media (max-width: 850px){
+	#about-main{
+		margin: 0 auto;
+		width: 90%;
+		padding: 20px;
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+/*Workprocess-Section*/
+
+#Workprocess{
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: ghostwhite;
+
+}
+
+
+#Workprocess-text{
+	width: 50%;
+	margin: 0 auto;
+	text-transform: uppercase;
+	font-size: 34px;
+	letter-spacing: 6px;
+	text-align: center;
+}
+
+
+#Workprocess-wrapper{
+	width: 90%;
+	margin: 20px auto;
+}
+
+
+#Workprocess-wrapper #Workprocess-inner{
+	display: flex;
+	justify-content: space-between;
+}
+
+#Workprocess-wrapper #Workprocess-inner #ui-design,
+#Workprocess-wrapper #Workprocess-inner #ux-design,
+#Workprocess-wrapper #Workprocess-inner #inter-design{
+	padding: 20px;
+	text-align: center;
+}
+
+#Workprocess-wrapper #Workprocess-inner #ux-design .fa-accessible-icon{
+	font-size: 54px;
+	color: #41228E;
+	padding-bottom: 40px;
+}
+
+#Workprocess-wrapper #Workprocess-inner #ui-design h2,
+#Workprocess-wrapper #Workprocess-inner #ux-design h2,
+#Workprocess-wrapper #Workprocess-inner #inter-design h2{
+	padding: 20px;
+}
+
+
+ 
+#Workprocess-wrapper #Workprocess-inner #inter-design .fa-adjust{
+	font-size: 54px;
+	color: #41228E;
+	padding-bottom: 40px;
+ }
+
+#Workprocess-wrapper #Workprocess-inner #ui-design .fa-accusoft{
+	font-size: 54px;
+	color: #41228E;
+	padding-bottom: 40px;
+ }
+
+
+
+ @media (max-width: 720px){
+ 	#Workprocess-wrapper #Workprocess-inner{
+ 		flex-direction: column;
+ 	}
+ }
+
+
+
+/*Team-section*/
+
+
+ #team{
+	width: 100%;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+#team-text1{
+	margin: 0 auto;
+	width: 50%;
+	text-transform: uppercase;
+	font-size: 34px;
+	letter-spacing: 6px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+
+#team-text{
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+#team .team1,#team .team2,#team .team3{
+	padding: 10px;
+}
+
+#team .team1 h1{
+	padding-bottom: 10px;
+}
+
+
+#team .team1 .img img{
+	height:200px;
+	width: 200px;
+	border-radius: 100%;
+}
+
+
+#team .team2 .img img{
+	height: 50%;
+	width: 50%;
+	border-radius: 100%;
+}
+
+
+
+
+#team .team3 .img img{
+	height: 50%;
+	width: 50%;
+	border-radius: 100%;
+}
+
+
+@media (max-width: 750px){
+	#team-text{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+}
+
+
+
+
+/*Email-Section*/
+
+
+#email{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background: ghostwhite;
+}
+
+#email-text{
+	margin:0 auto;
+	width: 80%;
+	text-align: center;
+	padding: 20px;
+
+}
+
+
+#email-text h1{
+	padding-bottom: 20px;
+text-transform: capitalize;
+}
+
+#email-text p{
+	padding-bottom: 20px;
+}
+
+#email-text button{
+	height: 45px;
+	width: 280px;
+	background: none;
+	outline: none;
+	border: none;
+	background: #41228E;
+	color: white;
+}
+
+/*Footer*/
+
+
+footer{
+	padding: 10px;
+	background-color: #000;
+}
+
+#footer-text{
+	margin: 0 auto;
+	width: 50%;
+	text-align: center;
+	color: white;
+}
+
+
+#footer-wrapper{
+	display: flex;
+	justify-content: space-around;
+	font-size: 30px;
+	margin: 0 auto;
+
+}

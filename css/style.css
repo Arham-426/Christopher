@@ -1,0 +1,438 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+body
+{
+    /*height: 500px;*/
+    /*background-color: cyan;*/
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+
+}
+
+
+/*Nav-Section*/
+
+nav{
+	width: 100%;
+	background: #41228e;
+	padding: 20px;
+	position: sticky;
+	top: 0;
+}
+
+#nav-main{
+	width: 85%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	align-items: center;
+}
+
+
+#logo{
+	padding: 8px;
+}
+
+#navigation{
+
+}
+
+#navigation ul{
+	display: flex;
+
+}
+
+
+#navigation ul li{
+	list-style: none;
+	padding: 10px;
+}
+
+#navigation ul li:first-child{
+	padding-left: 0;
+
+}
+
+
+#navigation ul li a{
+	color: #fff;
+	text-decoration: none;
+}
+
+
+@media (max-width: 530px){
+	#nav-main{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		text-align: center;
+		align-items: center;
+	}
+}
+
+
+
+header{
+	width: 100%;
+	background-color: #43228e;
+
+}
+
+#header-main{
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px;
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+
+
+#header-text{
+	padding: 20px;
+
+}
+
+
+
+#header-text h1{
+	padding-top: 50px;
+	padding-bottom: 15px;
+	color: #fff;
+	font-size: 64px;
+
+}
+
+
+#header-text p{
+	padding-bottom: 30px;
+	color: #fff;
+}
+
+
+#header-text button{
+	height: 45px;
+	width: 170px;
+	color: #000;
+	font-weight: bold;
+	font-size: 14px;
+	background: none;
+	background: #fff;
+	border: none;
+	outline: none;
+}
+
+/*Text-Section*/
+
+
+#text{
+	background: ghostwhite;
+	width: 100%;
+	padding-top: 60px;
+	padding-bottom: 100px;
+	}
+#text-main{
+	width: 70%;
+	text-align: center;
+	padding: 20px;
+	margin: 0 auto;
+	line-height: 40px;
+
+}
+
+
+#text main p{
+	padding-bottom: 30px;
+	font-size: 20px;
+
+}
+
+
+
+#text main a{
+	padding-bottom: 30px;
+	font-size: 20px;
+}
+
+/*Skills-Section*/
+
+
+#skills{
+	width: 100%;
+	padding-top: 60px;
+	padding-bottom: 60px;
+
+}
+
+#skills-text{
+	width: 50%;
+	margin: 0 auto;
+	text-transform: uppercase;
+	font-size: 34px;
+	letter-spacing: 25px;
+	text-align: center;
+}
+
+#skills-main{
+	width: 90%;
+	margin: 20px auto;
+
+}
+
+
+#skills-main #wrapper1, #skills-main #wrapper2{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+
+#skills-main #wrapper1 #html, #skills-main #wrapper1 #css,
+#skills-main #wrapper1 #js, #skills-main #wrapper2
+#react, #skills-main #wrapper2 #sass, #skills-main 
+#wrapper2 #wordpress{
+	width: 30%;
+	padding: 20px;
+	text-align: center;
+}
+
+#skills-main #wrapper1 #html .fa-html5{
+	font-size: 95px;
+	color: #FD7E14;
+}
+
+#skills-main #wrapper1 #css .fa-css3-alt{
+	font-size: 95px;
+	color: #254BDE;
+
+}
+
+
+#skills-main #wrapper1 #js .fa-js{
+	font-size: 95px;
+	color: #F3C050;
+}
+
+#skills-main #wrapper2 #react .fa-react{
+	font-size: 95px;
+	color: #15AABF;
+}
+
+#skills-main #wrapper2 #sass .fa-sass{
+	font-size: 95px;
+	color: #c76495;
+
+}
+
+
+
+
+#skills-main #wrapper2 #wordpress .fa-wordpress{
+	font-size: 95px;
+	color: #21759B;
+}
+
+
+/*Parallax-Section*/
+
+#parallax{
+	width: 100%;
+	background: linear-gradient(rgba(104,0,179,0.9)
+		,rgba(134,0,230,0.7)), url(../img/portfolio-2.jpg)
+		no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+		background-position: center;
+		color: #fff;
+		padding-top: 100px;
+		padding-bottom: 100px;
+}
+
+
+#parallax-main{
+	margin: 0 auto;
+	width: 80%;
+	text-align: center;
+	padding: 20px;
+
+}
+
+
+#parallax-main h1{
+	font-size: 64px;
+	padding-bottom: 20px;
+}
+
+#parallax-main button{
+	height: 45px;
+	width: 180px;
+	background: none;
+	outline: none;
+	border: none;
+	background: #fff;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+/*Services-Section*/
+
+#services{
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: ghostwhite;
+
+}
+
+
+#services-text{
+	width: 50%;
+	margin: 0 auto;
+	text-transform: uppercase;
+	font-size: 34px;
+	letter-spacing: 6px;
+	text-align: center;
+}
+
+
+#services-wrapper{
+	width: 90%;
+	margin: 20px auto;
+}
+
+
+#services-wrapper #services-inner{
+	display: flex;
+	justify-content: space-between;
+}
+
+#services-wrapper #services-inner #ui-design,
+#services-wrapper #services-inner #ux-design,
+#services-wrapper #services-inner #inter-design{
+	padding: 20px;
+	text-align: center;
+}
+
+#services-wrapper #services-inner #ux-design{
+	background-color: #41228E;
+	color: #fff;
+}
+
+#services i{
+	font-size: 60px;
+	padding-bottom: 10px;
+}
+
+
+/*Testimonials-Section*/
+
+#testimonials{
+	width: 100%;
+	background: #41228E;
+	padding-top: 80px;
+	padding-bottom: 100px;
+}
+
+#testimonials-main{
+	margin: 0 auto;
+	width: 90%;
+	text-align: center;
+	padding: 20px;
+}
+
+#testimonials-main h1{
+	font-size: 64px;
+	padding-bottom: 20px;
+	color: #fff;
+}
+
+#testimonials-main p{
+	color: white;
+	line-height: 25px;
+	padding-bottom: 20px;
+
+}
+
+
+
+#testimonials-main img{
+	border-radius: 10px;
+	padding-bottom: 20px;
+}
+
+#testimonials-main h3{
+	color: white;
+
+}
+
+#testimonials-main span{
+	color: white;
+	padding-bottom: 20px;
+}
+
+
+
+/*Email-Section*/
+
+
+#email{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background: ghostwhite;
+}
+
+#email-text{
+	margin:0 auto;
+	width: 80%;
+	text-align: center;
+	padding: 20px;
+
+}
+
+
+#email-text h1{
+	padding-bottom: 20px;
+text-transform: capitalize;
+}
+
+#email-text p{
+	padding-bottom: 20px;
+}
+
+#email-text button{
+	height: 45px;
+	width: 280px;
+	background: none;
+	outline: none;
+	border: none;
+	background: #41228E;
+	color: white;
+}
+
+/*Footer*/
+
+
+footer{
+	padding: 10px;
+	background-color: #000;
+}
+
+#footer-text{
+	margin: 0 auto;
+	width: 50%;
+	text-align: center;
+	color: white;
+}
+
+
+#footer-wrapper{
+	display: flex;
+	justify-content: space-around;
+	font-size: 30px;
+	margin: 0 auto;
+
+}
